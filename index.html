@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WhatsApp Bill Sender</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -10,7 +11,7 @@
     <h2>Send Bill via WhatsApp</h2>
     <form id="billForm">
       <input type="text" id="name" placeholder="Customer Name" required>
-      <input type="number" id="amount" placeholder="Total Bill Amount (₹)" required>
+      <input type="number" id="amount" placeholder="Total Bill Amount (₹)" inputmode="numeric" required>
 
       <input type="tel" id="whatsapp" placeholder="Enter 10-digit mobile number" maxlength="13" required>
 

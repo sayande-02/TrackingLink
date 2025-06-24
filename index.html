@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>WhatsApp Bill Sender</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Send Bill via WhatsApp</h2>
+    <form id="billForm">
+      <input type="text" id="name" placeholder="Customer Name" required>
+      <input type="number" id="amount" placeholder="Total Bill Amount (₹)" required>
+
+      <input type="tel" id="whatsapp" placeholder="Enter 10-digit mobile number" maxlength="13" required>
+
+      <input type="text" id="tracking" placeholder="India Post Tracking Number" required>
+      <button type="submit">Send via WhatsApp</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
